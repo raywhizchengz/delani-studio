@@ -1,0 +1,39 @@
+.home {
+  height: 100vh;
+  position: relative;
+  background-image: url(../img/h_img1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  margin: 0%;
+  color: white;
+  line-height: 200px;
+}
+span {
+  display: block;
+}
+p {
+  line-height: 3em;
+}
+h2 {
+  text-align: center;
+  font-weight: bold;
+  font-family: "Solway", serif;
+}
+.about {
+  text-align: center;
+  font-family: "Solway", serif;
+}
+.services {
+  text-align: center;
+  color: white;
+  background-image: url(../img/services.jpg);
+  padding: 3.5em;
+}
+.works {
+  padding-left: 50px;
+}
+img {
+  margin-right: 19em;
+}
