@@ -35,5 +35,18 @@ h2 {
   padding-left: 50px;
 }
 img {
-  margin-right: 19em;
+  margin-right: 20em;
 }
+.col-md-4{
+    float: left;
+    width: 23;
+    padding: 25px 30px 75px 100px;
+    grid-column-gap: 30;
+
+}
+.portfolio{
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 50px;
+}
+
