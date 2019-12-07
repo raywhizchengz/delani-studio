@@ -9,6 +9,7 @@
   margin: 0%;
   color: white;
   line-height: 200px;
+  padding-top: 50px;
 }
 span {
   display: block;
@@ -31,22 +32,35 @@ h2 {
   background-image: url(../img/services.jpg);
   padding: 3.5em;
 }
-.works {
-  padding-left: 50px;
-}
-img {
-  margin-right: 20em;
+ img { 
+   margin-right: 20em; 
 }
 .col-md-4{
     float: left;
-    width: 23;
-    padding: 25px 30px 75px 100px;
+    width: 23; 
+    padding: 25px 30px 75px 100px; 
     grid-column-gap: 30;
+    justify-content: flex-start;
+    
 
 }
 .portfolio{
+    float: left;
     flex-direction: row;
     flex-wrap: wrap;
-    margin: 50px;
+    margin: 20px;
+    display: inline;
 }
-
+.contact{
+    background-image: url(../img/contacts.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h3{
+    font-weight: bolder;
+    font-size: 15px;
+}
+.header{
+    text-align: center;
+}
