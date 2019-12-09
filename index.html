@@ -1,4 +1,4 @@
-  <!DOCTYPE html>
+    <!DOCTYPE html>
   <html lang="en">
     <head>
       <meta charset="utf-8" />
@@ -10,20 +10,16 @@
         href="https://fonts.googleapis.com/css?family=Solway&display=swap"
         rel="stylesheet"
       />
-      <link
-        rel="stylesheet"
-        href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-        crossorigin="anonymous"
-      /> 
+    
       <link rel="stylesheet" href="css/bootstrap.css">
-      <link rel="stylesheet" href="css/styles.css" type="text/css" />
+      <link rel="stylesheet" href="css/styles.css" type="text/css">
       <script
         src="https://code.jquery.com/jquery-3.3.1.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"
       ></script>
-      <script src="js/script.js"></script>
+      <script src="./js/jquery-3.4.1.min.js"></script>
+      <script src="./js/script.js"></script>
 
       <title></title>
     </head>
@@ -76,11 +72,8 @@
         </div>
         <div class="row">
           <div class="col-md-4">
-            <div class="design">
-           <img id="imagedesign" src="img/design.png" alt="design icon" />
-          <h3>DESIGN</h3>  
-          <div class="toggledesign">
-              <h3>DESIGN</h3>
+              <img id="imagedesign" src="img/design.png" alt="design icon"><br>
+              <label><strong>DESIGN</strong></label>
               <p id="des-m">Design practice offers a full range of services<br>
                 including brand strategy, interaction and visual design<br>
                 and user experience testing.</br>
@@ -88,14 +81,13 @@
                 and implement visual design and workflows, solicit user<br>
                 feedback and work with you to make sure what gets built<br>
                 is what is needed.</p>
-              
+          
           </div>
-            </div>
-          </div>
+        
           <div class="col-md-4">
-            <div class="develop">
-          <img id="imagedev" src="img/dev.png" alt="development" />
-          <h3>DEVELOPMENT</h3>
+          <img id="imagedev" src="img/dev.png" alt="development"><br>
+          
+          <label><strong>DEVELOPMENT</strong></label>
           <p id="dev-m">All engineers are fluent in the latest enterprise, mobile<br> 
             and web development technologies.
               They collaborate with your team to write, and improve<br>
@@ -103,47 +95,31 @@
               test-driven development and pair programming.
               </p>
               </div>
-          </div>
           <div class="col-md-4">
-            <div class="product management">
-          <img id="imageprod" src="img/product.png" alt="product" />
-          <h3>PRODUCT MANAGEMENT</h3>
-          <p id="prod-m">Planning and development is iterative. Because we<br>
-            are constantly coding and testing, the products we build<br>
-            are always ready to go live.</p>
-          <p id="prod-m">This iterative process allows for changes as business requirements evolve.</p>
+            <div id="product management">
+              <img id="imageprod" src="img/product.png" alt="product"><br>
+               <label><strong>PRODUCT MANAGEMENT</strong></label>
+               <p id="prod-m">Planning and development is iterative. Because we<br>
+               are constantly coding and testing, the products we build<br>
+               are always ready to go live.</p>
+               <p id="prod-m">This iterative process allows for changes as business requirements evolve.</p>
+            </div>
           </div>
-          </div>
-        </div>
+      </div>
+        
         <h2>PORTFOLIO</h2>
-        <div class="portfolio">
-          <div class="row">
-            <div class="col-md-3">
-              <img src="img/work4.jpg" alt="">
-            </div>
-            <div class="col-md-3">
-              <img src="img/work3.jpg" alt="">
-            </div>
-            <div class="col-md-3">
-              <img src="img/work2.jpg" alt="">
-            </div>
-            <div class="col-md-3">
-              <img src="img/work1.jpg" alt="">
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-3">
-              <img src="img/work5.jpg" alt="">
-            </div>
-            <div class="col-md-3">
-              <img src="img/work6.jpg" alt="">
-            </div>
-            <div class="col-md-3">
-              <img src="img/work7.jpg" alt="">
-            </div>
-            <div class="col-md-3">
-              <img src="img/work8.jpg" alt="">
-            </div>
+        <div class="portfolio row">
+              <img class="col-3" src="img/work4.jpg" alt="">
+              <img class="col-3" src="img/work3.jpg" alt="">
+              <img class="col-3" src="img/work2.jpg" alt="">
+              <img class="col-3" src="img/work1.jpg" alt="">
+        </div>
+        <div class="portfolio row">
+             
+              <img class="col-3" src="img/work5.jpg" alt="">
+              <img class="col-3" src="img/work6.jpg" alt="">
+              <img class="col-3" src="img/work7.jpg" alt="">
+              <img class="col-3" src="img/work8.jpg" alt="">
           </div>
         </div>
         <div class="contacts">
@@ -165,25 +141,25 @@
 		<div class="response" id="mce-success-response" style="display:none"></div>
 	</div>    
     <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_d64cde0006225675a17dc1283_05f319e983" tabindex="-1" value=""></div>
-    <div class="clear"><input type="submit" value="Subscribe" name="submit" id="mc-embedded-subscribe" class="button"></div>
+    <div class="clear"><input type="submit" value="Subscribe" name="submit" id="subscribe" class="button"></div>
     </div>
 </form>
-<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+<!-- <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);</script> -->
 
         </div>
   
 
 
         <div class="icons">
-          <img  src="img/twitter.png" alt="twitter icon">
-          <img src="img/dribble.png" alt="dribble icon">
-          <img src="img/facebook.png" alt="facebook icon">
-          <img src="img/g_plus.png" alt="google plus icon">
-          <img src="img/skype.png" alt="skype logo">
+          <a href="https://twitter.com/"><img  src="img/twitter.png" alt="twitter icon"></a>
+          <a href="https://dribble.com/"><img src="img/dribble.png" alt="dribble icon"></a>
+          <a href="https://facebook.com/"><img src="img/facebook.png" alt="facebook icon"></a>
+          <a href="https://aboutme.google.com/u/0/?referer=gplus"><img src="img/g_plus.png" alt="google plus icon"></a>
+          <a href="https://www.skype.com/en/"><img src="img/skype.png" alt="skype logo"></a>
           <img src="img/stumble_upon.png" alt="stumble upon logo">
-          <img src="img/behance.png" alt="behance logo">
-          <img src="img/pinterest.png" alt="pintrest logo">
-          <img src="img/flickr.png" alt="flickr logo">
+          <a href="https://www.behance.net/"><img src="img/behance.png" alt="behance logo"></a>
+          <a href="https://www.pinterest.com/"><img src="img/pinterest.png" alt="pintrest logo"></a>
+          <a href="https://www.flickr.com/"><img src="img/flickr.png" alt="flickr logo"></a>
         </div>
         <div class="footer">
           <h4>DELANI STUDIO</h4>
