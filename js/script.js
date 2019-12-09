@@ -16,15 +16,15 @@
 //     });
 // });
 $(document).ready(function(){
-    $("#design").click(function(){
-      $("#design").hide();
+    $("#imagedesign").click(function(){
+      $("#imagedesign").hide();
     //   $("#dev-m").toggle(1200);
-      $(".toggledesign").show();
+      $("#des-m").show();
     });
-    $(".toggledesign").click(function(){
-      $(".toggledesign").hide();
+    $("#des-m").click(function(){
+      $("#des-m").hide();
     //   $("#imagedesign").toggle(1200);
-      $("#design").show();
+      $("#imagedesign").show();
     });
   });
   $(document).ready(function(){

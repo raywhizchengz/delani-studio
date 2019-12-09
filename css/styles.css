@@ -39,7 +39,7 @@ h2 {
  
 .col-md-4{
     float: left;
-    width: 23; 
+    width: 23%; 
     padding: 25px 30px 75px 100px; 
     grid-column-gap: 33px;
     justify-content: flex-start;
@@ -58,7 +58,8 @@ h2 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    align-content: center;
+    text-align: center;
+    line-height: 35px;
 }
 h3{
     font-weight: bolder;
@@ -93,5 +94,20 @@ h4{
 }
 #design{
     /* display: none; */
+    text-align: center;
+} #name{
+    background: none;
+}
+#email{
+    background: none;
+}
+#message{
+    background: none;
+}
+button{
+    background: none;
+}
+#submit{
+    background: none;
     text-align: center;
 }
