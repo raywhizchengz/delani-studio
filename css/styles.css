@@ -32,7 +32,7 @@ h2 {
   background-image: url(../img/services.jpg);
   padding: 3.5em;
 }
- img { 
+ /* img {  */
    margin-right: 1em;
    text-align: center; 
 }
@@ -41,18 +41,12 @@ h2 {
     float: left;
     width: 23%; 
     padding: 25px 30px 75px 100px; 
-    grid-column-gap: 33px;
-    justify-content: flex-start;
-    padding-top: 20px;
-    
-
+   
 }
 .portfolio{
-    /* float: left; */
-    flex-direction: row;
-    flex-wrap: wrap;
+    padding:10 px;
+    text-align: center;
     margin: 20px;
-    display: inline;
 }
 .contacts{
     background-image: url(../img/contacts.jpg);
@@ -88,22 +82,18 @@ h4{
     font-family: "Solway", serif;
     font-size: 14px;
 }
-.toggledesign{
-    display: none;
-    text-align: center;
-}
 #dev-m{
     display: none;
     text-align: center;
+}
+#des-m{
+    display: none;
 }
 #prod-m{
     display: none;
     text-align: center;
 }
-#design{
-    /* display: none; */
-    text-align: center;
-} #name{
+ #name{
     background: none;
 }
 #email{
