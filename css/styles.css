@@ -125,6 +125,7 @@ button{
 #NAME{
     background: transparent;
     width: 40%;
+    border: 2px solid;
 
 }
 #EMAIL{

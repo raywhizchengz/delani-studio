@@ -1,53 +1,65 @@
-// $(document).ready(function() {
-//     $(".design").hide();
-//     $(".design").click(function() {
-//         $(".design").toggle();
-//         $(".design img").toggle();
-//     });
-//     $(".develop").hide();
-//     $(".develop").click(function() {
-//         $(".develop").toggle();
-//         $(".develop img").toggle();
-//     });
-//     $(".product management").hide();
-//     $(".product management").click(function() {
-//         $(".product management").toggle();
-//         $(".product management img").toggle();
-//     });
-// });
-$(document).ready(function(){
-    $("#imagedesign").click(function(){
-      $("#imagedesign").hide();
-    //   $("#dev-m").toggle(1200);
-      $("#des-m").show();
+ 
+//For toggling on WHAT WE DO
+$(document).ready(function() {
+    $(".onCrack1").click(function() {
+        $("#click1").toggle();
+        $("#magic1").toggle();
     });
-    $("#des-m").click(function(){
-      $("#des-m").hide();
-    //   $("#imagedesign").toggle(1200);
-      $("#imagedesign").show();
+    $(".onCrack2").click(function() {
+        $("#magic2").toggle();
+        $("#click2").toggle();
     });
-  });
-  $(document).ready(function(){
-      $(".image2").click(function(){
-        $(".image2").hide(1200);
-        $(".p2").toggle(1200);
-        $(".p2").show(1200);
+    $(".onCrack3").click(function() {
+        $("#magic3").toggle();
+        $("#click3").toggle();
+    });
+});
+
+// For hover effect on PORTFOLIO
+$(document).ready(function() {
+    $("div.image-frame").hover(function() {
+        $(".classAdd1").addClass("mask flex-center rgba-red-strong");
+    });
+    $("div.image-frame").hover(function() {
+        $(".classAdd2").addClass("mask flex-center rgba-blue-light");
+    });
+    $("div.image-frame").hover(function() {
+        $(".classAdd3").addClass("mask flex-center rgba-green-slight");
+    });
+    $("div.image-frame").hover(function() {
+        $(".classAdd4").addClass("mask flex-center");
+    });
+});
+
+var btn = document.getElementById("myBtn");
+
+// When the user clicks on the button, open the modal 
+btn.onclick = function(event) {
+    // Validate form for entry
+    var x = document.forms["myForm"]["contact-name"].value;
+    if (x == "") {
+        alert("Name not entered");
+        return false;
+    }
+    var y = document.forms["myForm"]["contact-email"].value;
+    if (y == "") {
+        alert("Email not entered");
+        return false;
+    }
+    var z = document.forms["myForm"]["contact-message"].value;
+    if (z == "") {
+        alert("You have no message to send");
+        return false;
+    }
+    var person1Input = $("input#contact-name").val();
+    $("span#outputName").append(person1Input);
+
+    $('.toast').toast('show');
+    event.preventDefault();
+}
+
+      $("#mc-embedded-subscribe").on("click",function() {
+          alert("ftydrjfygfutdrdytdytdyd");
       })
-      $(".p2").click(function(){
-        $(".p2").hide(1200);
-        $(".image2").toggle(1200);
-        $(".image2").show(1200);
-      });
-  });
-  $(document).ready(function(){
-      $(".image3").click(function(){
-        $(".image3").hide(1200);
-        $(".p3").toggle(1200);
-        $(".p3").show(1200);
-      })
-      $(".p3").click(function(){
-        $(".p3").hide(1200);
-        $(".image3").toggle(1200);
-        $(".image3").show(1200);
-      });
+      
     });
