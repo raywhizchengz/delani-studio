@@ -32,10 +32,11 @@ h2 {
   background-image: url(../img/services.jpg);
   padding: 3.5em;
 }
- /* img {  */
+ /* img {  
    margin-right: 1em;
    text-align: center; 
 }
+*/
  
 .col-md-4{
     float: left;
@@ -85,9 +86,12 @@ h4{
 #dev-m{
     display: none;
     text-align: center;
+    line-height: 110%;
 }
 #des-m{
     display: none;
+    line-height: 100%;
+    text-align: center;
 }
 #prod-m{
     display: none;
@@ -114,7 +118,7 @@ button{
 }
 #NAME{
     background: transparent;
-    width: 40%;
+    width: 70px;
     border: 2px solid;
 
 }
@@ -131,4 +135,5 @@ button{
 }
 .footer{
     padding-top: 50px;
+    font-weight: bolder;
 }
