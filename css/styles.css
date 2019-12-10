@@ -86,16 +86,21 @@ h4{
 #dev-m{
     display: none;
     text-align: center;
-    line-height: 110%;
+    line-height: 130%; 
+    font-size: 14px;
+    
 }
 #des-m{
     display: none;
-    line-height: 100%;
+    line-height: 130%;
     text-align: center;
+    font-size: 14px;
 }
 #prod-m{
     display: none;
     text-align: center;
+    font-size: 14px;
+    line-height: 130%;
 }
  #name{
     background: none;
