@@ -35,6 +35,7 @@ $(document).ready(function(){
     });
 
     $("#subscribe").click(function(){
-       alert("Thank you for subscribing to our channel");
+        var user = document.getElementById("name").value;
+       alert("Thank you "+user+" for subscribing to our channel");
     });
 });
