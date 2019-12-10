@@ -38,4 +38,4 @@ $(document).ready(function(){
         var user = document.getElementById("name").value;
        alert("Thank you "+user+" for subscribing to our channel");
     });
-});
+}); 
