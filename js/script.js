@@ -1,4 +1,3 @@
- 
 $(document).ready(function(){
     $("#imagedesign").click(function(){
         $("#imagedesign").hide();
